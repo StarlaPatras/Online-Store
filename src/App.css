@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+/* apply directive   */
+.btn {
+  @apply bg-pink-500 p-4 text-center;
+}
+
+@tailwind utilities;
+
+/* this class overwrite tailwind utility class */
+.test {
+  @apply bg-orange-400;
+}
